@@ -36,6 +36,18 @@ padding-right: .7rem;
   object-fit:cover;
 }
 
+@media screen and (min-width:751px){
+p.responsive {
+  font-size:16px;
+}
+}
+
+@media screen and (max-width:750px){
+  p.responsive {
+    font-size:13px;
+  }
+  }
+
 h1, h2, h3 {
   font-family: 'Catamaran', sans-serif;}
 
